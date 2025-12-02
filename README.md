@@ -44,8 +44,8 @@
 ### Build & Run
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/scientific-calculator.git
-cd scientific-calculator
+git clone https://github.com/reishasholihah/kotlin_calculator.git
+cd kotlin_calculator
 
 # Run with Gradle
 ./gradlew run
