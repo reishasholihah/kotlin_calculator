@@ -1,0 +1,100 @@
+.root {
+    -fx-background-color: #fafafa;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.display {
+    -fx-font-size: 28px;
+    -fx-alignment: center;
+    -fx-padding: 12px 24px;
+    -fx-min-width: 16px;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+.display:error {
+    -fx-text-fill: #C62828;
+}
+
+.display.error {
+    -fx-text-fill: #D32F2F;
+}
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-pref-height: 6px;
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #bbb;
+    -fx-background-insets: 0;
+    -fx-background-radius: 3px;
+}
+
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #999;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: transparent;
+    -fx-pref-width: 60px;
+    -fx-pref-height: 50px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 2, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 3, 0, 0, 1);
+}
+
+.number {
+    -fx-background-color: #FF6F00;
+    -fx-text-fill: white;
+}
+
+.number:hover {
+    -fx-background-color: #FF8F00;
+}
+
+.operator {
+    -fx-background-color: #5C6BC0;
+    -fx-text-fill: white;
+}
+
+.operator:hover {
+    -fx-background-color: #3F51B5;
+}
+
+.special {
+    -fx-background-color: #8C9EFF;
+    -fx-text-fill: #1A237E;
+}
+
+.special:hover {
+    -fx-background-color: #7986CB;
+}
+
+.equals {
+    -fx-background-color: #F57C00;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.equals:hover {
+    -fx-background-color: #EF6C00;
+}
+
+.clear {
+    -fx-background-color: #E53935;
+    -fx-text-fill: white;
+}
+
+.clear:hover {
+    -fx-background-color: #C62828;
+}
